@@ -1,5 +1,6 @@
 import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Octocat1 from "../components/layout/assets/stormtroopocat.png";
 function NotFound() {
   return (
     <div className="hero">
@@ -11,6 +12,9 @@ function NotFound() {
             <FaHome className="mr-2" />
             Back To Home
           </Link>
+          <div className="flex justify-center">
+            <img className="stormOcto" src={Octocat1} alt="404logo" />
+          </div>
         </div>
       </div>
     </div>
